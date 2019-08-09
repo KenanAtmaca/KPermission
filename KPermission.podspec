@@ -16,7 +16,8 @@ s.requires_arc = true
 s.ios.deployment_target = "11.0"
 
 s.source       = { :git => "https://github.com/KenanAtmaca/KPermission", :tag => "#{s.version}" }
-s.source_files  = "KPermission", "KPermission/**/*.{h,m,swift,png,xib}"
+s.source_files  = "KPermission", "KPermission/**/*.{h,m,swift}"
+s.resources = "KPermission/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = '4.2'
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2'}
 end
