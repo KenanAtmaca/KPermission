@@ -18,7 +18,7 @@
 ## Requirements
 
 - Xcode 9.0 +
-- iOS 10.0 or greater
+- iOS 11.0 or greater
 
 
 ## Installation
@@ -38,7 +38,7 @@ end
 
 3. Run `pod install`
 4. Open up the new `.xcworkspace` that CocoaPods generated
-5. Whenever you want to use the library: `import KEmptyView`
+5. Whenever you want to use the library: `import KPermission`
 
 ### Manually
 
