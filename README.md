@@ -2,10 +2,13 @@
 
 <img src="https://user-images.githubusercontent.com/16580898/62778703-be8ae300-bab9-11e9-99a0-2418eafcbd93.png" width="100%">
 
-![Licance](https://img.shields.io/github/license/KenanAtmaca/KPermission)
-![tag](https://img.shields.io/github/tag/KenanAtmaca/KPermission)
-![platform](https://img.shields.io/cocoapods/p/KPermission)
-![swift](https://img.shields.io/badge/Swift-4.2%2B-orange)
+<p align="center">
+  <img alt="MIT Licance" src="https://img.shields.io/github/license/KenanAtmaca/KPermission"/>
+  <img alt="MIT Licance" src="https://img.shields.io/github/tag/KenanAtmaca/KPermission"/>
+  <img alt="MIT Licance" src="https://img.shields.io/cocoapods/p/KPermission"/>
+  <img alt="MIT Licance" src="https://img.shields.io/badge/Swift-4.2%2B-orange"/>
+</p>
+
 
 ## Advantages
 - [X] Simply use.
@@ -43,7 +46,9 @@ end
 
 ## Usage
 
-<img src="https://user-images.githubusercontent.com/16580898/62779077-d1ea7e00-baba-11e9-902b-fa81529ba5de.png" width="40%">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16580898/62779077-d1ea7e00-baba-11e9-902b-fa81529ba5de.png" width="40%"/>
+</p>
 
 ```Swift
 KPermission.shared.view.show(view: self.view, types: [.camera, .photoLibrary], animation: .scale)
@@ -60,8 +65,6 @@ Permission types:
 - Motion
 - Media Library
 - Speech
-
-
 
 
 ## License
