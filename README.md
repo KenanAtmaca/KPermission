@@ -7,8 +7,6 @@
 ![platform](https://img.shields.io/cocoapods/p/KPermission)
 ![swift](https://img.shields.io/badge/Swift-4.2%2B-orange)
 
-<img src="https://user-images.githubusercontent.com/16580898/62779077-d1ea7e00-baba-11e9-902b-fa81529ba5de.png" width="40%">
-
 ## Advantages
 - [X] Simply use.
 - [X] Easy permission request.
@@ -44,6 +42,8 @@ end
 1. Simply download the `KPermission` source files and import them into your project.
 
 ## Usage
+
+<img src="https://user-images.githubusercontent.com/16580898/62779077-d1ea7e00-baba-11e9-902b-fa81529ba5de.png" width="40%">
 
 ```Swift
 KPermission.shared.view.show(view: self.view, types: [.camera, .photoLibrary], animation: .scale)
