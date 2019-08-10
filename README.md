@@ -29,9 +29,10 @@
 2. Add this repo to your `Podfile`
 
 ```ruby
-target 'Example' do
+platform :ios, '11.0'
+
+target 'ProjectName' do
   use_frameworks!
-	
   pod 'KPermission'
 end
 ```
