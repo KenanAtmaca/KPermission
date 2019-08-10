@@ -30,7 +30,7 @@ class KPermissionTableCell: UITableViewCell {
     var data: KPermissionType! {
         didSet {
             permissionTitle.text = data.description
-            permissionImage.image = UIImage(named: data.description, in: Bundle(identifier: "com.kenan.KPermission"), compatibleWith: nil) ?? UIImage()
+            permissionImage.image = UIImage(named: data.description, in: Bundle(for: KPermission.self), compatibleWith: nil) ?? UIImage()
             permissionImage.image = permissionImage.image?.withRenderingMode(UIImage.RenderingMode.alwaysTemplate)
         }
     }

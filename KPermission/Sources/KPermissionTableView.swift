@@ -31,7 +31,7 @@ class KPermissionTableView: UITableView {
     }
     
     private func loadNib() {
-        guard let tableViewBundle = Bundle(identifier: "com.kenan.KPermission") else { return }
+        let tableViewBundle = Bundle(for: KPermission.self)
         self.register(UINib(nibName: "KPermissionListView", bundle: tableViewBundle), forCellReuseIdentifier: KPermissionTableCell.id)
     }
     

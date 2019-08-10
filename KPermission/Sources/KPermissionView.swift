@@ -34,7 +34,7 @@ open class KPermissionView:UIView {
     
     private var closeButton:UIButton = {
         let button = UIButton()
-        button.setImage(UIImage(named: "close", in: Bundle(identifier: "com.kenan.KPermission"), compatibleWith: nil), for: .normal)
+        button.setImage(UIImage(named: "close", in: Bundle(for: KPermission.self), compatibleWith: nil), for: .normal)
         button.imageView?.contentMode = UIView.ContentMode.scaleAspectFit
         button.addTarget(self, action: #selector(closeAction), for: .touchUpInside)
         button.layer.cornerRadius = 16

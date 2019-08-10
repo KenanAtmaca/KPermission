@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "KPermission"
-s.version      = "1.0.1"
+s.version      = "1.0.3"
 s.summary      = "Easy request permissions on iOS"
 s.description  = <<-DESC
 Easy request permissions on iOS
